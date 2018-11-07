@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class    MyList<E> {
     private int size =0;
     static final int DEAFAULT_CAPACITY=10;
-    Object elements[];
+    Object elements[] = new Object[DEAFAULT_CAPACITY];
 
     public MyList( ) { }
     public MyList(int capacity){

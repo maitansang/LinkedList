@@ -16,10 +16,13 @@ public class MyListTest {
             System.out.println("element " + i + " is " + myList.elements[i]);
         }
         System.out.println("------------test remove --------------");
+
         System.out.println("element 2 :" + myList.remove(2) + " da bi xoa");
+
         for (int i = 0; i < myList.size(); i++) {
             System.out.println("element " + i + " is: " + myList.elements[i]);
         }
+
         System.out.println("------------ test clone  --------------");
         MyList<String> myListClone = (MyList) myList.clone();
         for (int i = 0; i < myListClone.elements.length; i++) {
